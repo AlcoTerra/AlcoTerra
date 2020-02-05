@@ -16,7 +16,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 source ~/.profile     ## Debian based systems 
 
 ### Find out the available version of Node.js 
-echo "Available Node.js Versions"
+echo "Available Node.js Versions"  
 nvm ls-remote
 
 
