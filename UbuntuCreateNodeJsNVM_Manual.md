@@ -26,7 +26,7 @@ nvm install $nvm-version
 echo "...This was a sample script... "
 
 
-## #Auto inject and launch script
+### Auto inject and launch script
 
 cp UbuntuCreateNodeJsNVM_Manual.md CreateNodewithNVMlaunch.sh
 
@@ -34,12 +34,12 @@ chmod 700 CreateNodewithNVMlaunch.sh
 ./CreateNodewithNVMlaunch.sh
 
 
-# Install NodeJs Manually
+## Install NodeJs Manually
 
-## Add Node.js PPA
-#Uncomment the line below to select a specific version
-#curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
-#curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+### Add Node.js PPA
+#Uncomment the line below to select a specific version  
+#curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -  
+#curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -  
 
 ### Next instal the package manually
 #sudo apt-get install nodejs -y
