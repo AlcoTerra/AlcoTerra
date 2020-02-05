@@ -20,7 +20,7 @@ echo "Available Node.js Versions"
 nvm ls-remote
 
 
-#Automate the nvm install
+### Automate the nvm install  
 nvm install $nvm-version
 
 echo "...This was a sample script... "
