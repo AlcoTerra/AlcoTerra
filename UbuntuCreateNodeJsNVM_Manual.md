@@ -49,3 +49,6 @@ chmod 700 CreateNodewithNVMlaunch.sh
 # To change default version uncommoment next line 
 #nvm list
 
+### To run a specific version on an app
+
+#nvm run v12.13.1 app.js
