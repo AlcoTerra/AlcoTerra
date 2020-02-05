@@ -1,4 +1,14 @@
-# README.md
+# Read before executing use at your own risk
+
+### CreateNodeJs.md
+
+###UbuntuOnly
+
+#Default set to version 13.3.0
+
+nvm-version="v13.3.0"
+
+
 
 #Allows selection of Node.js
 
@@ -24,15 +34,15 @@ nvm ls-remote
 
 
 
-#Install NodeJs
-sudo apt-get install nodejs -y
+#Install NodeJs Manually
+#sudo apt-get install nodejs -y
 
+#Automate the nvm install
+nvm install $nvm-version
 
 This is a simple script 
 
-# CreateNodeJs.md
 
-#UbuntuOnly
 
 #Auto inject and launch script
 
@@ -41,4 +51,7 @@ cp UbuntuCreateNodeJsNVM_Manual.md CreateNodewithNVMlaunch.sh
 chmod 700 CreateNodewithNVMlaunch.sh
 
 ./CreateNodewithNVMlaunch.sh
+
+# To change default version uncommoment next line
+#nvm list
 
